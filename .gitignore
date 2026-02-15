@@ -1,0 +1,5 @@
+# Ignore dependencies installed from npm.
+node_modules/
+
+# Ignore local environment variables, if created later.
+.env
