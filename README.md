@@ -26,6 +26,11 @@ The application is successfully deployed and accessible via the EC2 public IP.
 
 ---
 
+## 🏗️ Architecture Diagram
+
+![Deployment Architecture](https://github.com/Ismail-dcode/Node-app-Local-Hosting/blob/main/Local%20hosting.png)
+
+
 ## 📦 Step 1: Create Simple Node.js App
 
 Example `server.js`:
