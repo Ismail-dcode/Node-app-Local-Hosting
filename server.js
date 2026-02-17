@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Define the port where the server will listen.
-const PORT = 8080;
+const PORT = Number(process.env.PORT) || 8080;
 
 // Resolve the path to the HTML file we want to serve.
 const indexFilePath = path.join(__dirname, "index.html");
